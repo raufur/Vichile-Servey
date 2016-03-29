@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Car"
+            android:id="@+id/btn_car"
+            android:layout_gravity="center_horizontal"
+            android:onClick="buttonClickCar"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Van"
+            android:id="@+id/btn_van"
+            android:layout_gravity="center_horizontal"
+            android:onClick="buttonClickVan" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorry"
+            android:id="@+id/btn_lorry"
+            android:layout_gravity="center_horizontal"
+            android:onClick="buttonClickLorry"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bus"
+            android:id="@+id/btn_bus"
+            android:layout_gravity="center_horizontal"
+            android:onClick="buttonClickBus"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bike"
+            android:id="@+id/btn_bike"
+            android:layout_gravity="center_horizontal"
+            android:onClick="buttonClickBike"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Data"
+            android:id="@+id/btn_view_data"
+            android:layout_gravity="center_horizontal"
+            android:onClick="buttonClickViewData"/>
+    </LinearLayout>
+</RelativeLayout>
